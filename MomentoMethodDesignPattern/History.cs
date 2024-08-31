@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MomentoMethodDesignPattern
 {
-    internal class History
+    public class History
     {
         private List<EditorMemento> states = new List<EditorMemento>();
 

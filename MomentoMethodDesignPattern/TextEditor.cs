@@ -16,7 +16,7 @@ namespace MomentoMethodDesignPattern
             set
             {
                 content = value;
-                Console.WriteLine($" Current Content: { content}");
+                Console.WriteLine($"Current Content: { content}");
             }
         }
 
@@ -28,7 +28,7 @@ namespace MomentoMethodDesignPattern
         public void Restore(EditorMemento memento)
         {
             content = memento.Content;
-            Console.WriteLine($" Restored Content: { content}");
+            Console.WriteLine($"Restored Content: { content}");
         }
     }
 }
